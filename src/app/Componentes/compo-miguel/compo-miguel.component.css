@@ -1,0 +1,80 @@
+.h1-present{
+    text-align: center;
+    margin: .5rem;
+}
+.h2-present{
+    text-align: center;
+    margin: .5rem;
+}
+.h3-present{
+    text-align: center;
+    margin: .5rem;
+}
+
+
+.VIDEOJUEGOS{
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    margin: .5rem 0;
+    margin-right: 80px;
+    margin-left: 40px;
+    border-radius: 20px;
+    border: 5px solid darkblue;
+    cursor: pointer;
+}
+.PELIS{
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    margin: .5rem ;
+    margin-right: 80px;
+    margin-left: 40px;
+    border-radius: 20px;
+    border: 5px solid darkblue;
+    cursor: pointer;
+    
+}
+.BOX{
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    margin: .5rem ;
+    margin-right: 80px;
+    margin-left: 40px;
+    border-radius: 20px;
+    border: 5px solid darkblue;
+    cursor: pointer;
+    
+}
+.h4-video{
+    margin-left: 80px;
+    color: aliceblue;
+}
+.h4-pelis{
+    margin-left: 100px;
+    color: aliceblue;
+}
+.h4-box{
+    margin-left: 130px;
+    color: aliceblue;
+}
+.p-video{
+    margin-left: 60px;
+    color: aliceblue;
+}
+.p-pelis{
+    margin-left: 0px;
+    color: aliceblue;
+}
+.p-box{
+    margin-left: 60px;
+    color: aliceblue;
+}
+.color{
+    background-image: linear-gradient(to bottom, yellow, black);
+}
+.container{
+    display: flex;
+    margin-right: 5%;
+}
