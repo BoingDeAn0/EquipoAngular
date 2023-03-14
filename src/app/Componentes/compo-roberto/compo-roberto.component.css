@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Kanit&family=Lexend+Deca&family=Raleway&family=Roboto:wght@500&family=Ubuntu&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.nombreJ{
+    color: white;
+    text-align: center;
+}
+.cosas{
+        color: white;
+        text-align: center;
+    
+}
+.container {
+    display: flex;
+    width: 1100px;
+    height: 500px;    
+    border-radius: 10px;
+    margin: 3rem 7.5rem;
+    overflow: hidden;
+}
+div{
+    width: 100%;
+}
+ .container h3{
+    background: #EDBB00;
+    color: #004D98;
+    text-align: center;
+ }
+.container p{
+    color: white;
+    padding: .5rem .5rem;
+    font-size: 15px;
+    text-align: justify;
+}
+.container img{
+    width: 100%;
+    height: 60%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+}
+.container img:hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
