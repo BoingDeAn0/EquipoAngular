@@ -6,6 +6,7 @@ import { Componente1Component } from './Componentes/componente1/componente1.comp
 import { CompoDylanComponent } from './Componentes/compo-dylan/compo-dylan.component';
 import { CompoRobertoComponent } from './Componentes/compo-roberto/compo-roberto.component';
 import { CompoMiguelComponent } from './Componentes/compo-miguel/compo-miguel.component';
+import { CompoEliComponent } from './Componentes/compo-eli/compo-eli.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CompoMiguelComponent } from './Componentes/compo-miguel/compo-miguel.co
     Componente1Component,
     CompoDylanComponent,
     CompoRobertoComponent,
-    CompoMiguelComponent
+    CompoMiguelComponent,
+    CompoEliComponent
   ],
   imports: [
     BrowserModule
