@@ -7,6 +7,7 @@ import { CompoDylanComponent } from './Componentes/compo-dylan/compo-dylan.compo
 import { CompoRobertoComponent } from './Componentes/compo-roberto/compo-roberto.component';
 import { CompoMiguelComponent } from './Componentes/compo-miguel/compo-miguel.component';
 import { CompoEliComponent } from './Componentes/compo-eli/compo-eli.component';
+import { ComponenteAngelComponent } from './Componentes/componente-angel/componente-angel.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CompoEliComponent } from './Componentes/compo-eli/compo-eli.component';
     CompoDylanComponent,
     CompoRobertoComponent,
     CompoMiguelComponent,
-    CompoEliComponent
+    CompoEliComponent,
+    ComponenteAngelComponent
   ],
   imports: [
     BrowserModule

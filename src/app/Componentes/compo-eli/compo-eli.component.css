@@ -1,5 +1,8 @@
+.container{
+    display: flex;
+}
 .PRINCIPAL{
-    float: left;
+    /*float: right;*/
     width: 650px;
     height: 600px;
     margin: 20px 0 0 10px;
@@ -42,7 +45,7 @@
     color: white;
 }
 .principal2{
-    float: right;
+    /*float: right;*/
     width: 650px;
     height: 600px;
     background-image: linear-gradient(white,darkBlue);
