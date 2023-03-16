@@ -1,5 +1,110 @@
 .contenedorPrincipal{
-    height: 200px;
+    height: auto;
     width: 100%;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    
+   
 }
+.prueba{
+    height: auto;
+    width: 1000px;
+    background-color: rgb(0, 115, 255);
+    display: flex;
+    flex-direction: column;
+}
+.foto{
+    height: 300px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.contenedorFoto{
+    height: auto;
+    background-color: rgb(114, 155, 171);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    width: 100%;
+}
+
+.contenedorFoto img{
+    width: 200px;
+    border-style: outset;
+    margin-right: 20px;
+    border-radius: 40px;
+}
+
+.cardGeneral{
+    height: auto;
+    background-color: rgb(240, 240, 240);
+}
+.cardGeneral h2{
+    padding: 10px 0px 10px 10px;
+}
+.cards{
+    display: flex;
+    height: 800px;
+   flex-wrap: wrap;
+   justify-content:space-evenly;
+}
+
+.card {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 400px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(9, 133, 161, 0.637);
+  }
+  
+  .card img {
+    width: 100%;
+    max-width: 200px;
+  }
+  #mysql{
+    width: 100%;
+    max-width: 170px;
+  }
+  .container {
+    padding: 2px 16px;
+    height: 50%;
+    color: rgb(0, 0, 0);
+  }
+
+  .container h4,p{
+    margin-bottom: 10px;
+  }
+  .contendorBoton{
+    display: flex;
+    justify-content: center;
+   
+
+  }
+  .boton{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(27, 131, 150);
+    border-radius: 1em;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .boton:hover{
+    background-color: rgb(97, 214, 225);
+  }
+  .boton a{
+    color: white;
+    text-decoration: none;
+  }
