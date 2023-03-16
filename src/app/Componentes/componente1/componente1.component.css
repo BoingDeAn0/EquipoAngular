@@ -1,3 +1,17 @@
+.contenedorGro{
+  height: auto;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.Formatoconten{
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+}
 .group{
     height: 60vh;
     width: 100%;   
@@ -24,24 +38,22 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
     flex-direction: column;
-
+    color: white;
 }
 
-h1{
-    text-align: center;
-    font-size: 5vh;
-    border: solid 2px rgba(255, 255, 255,0.5);
-    color: #f5f5f5;
-    width:  20vw;
-    
-}
+
 
 
 img:hover{
 	filter: grayscale(0%);
 	transform: scale(1.1);
     transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.Elementos{
+  text-align: center;
 }
 
 /*Animacion de los botones */
