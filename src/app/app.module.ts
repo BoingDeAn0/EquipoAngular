@@ -8,6 +8,7 @@ import { CompoRobertoComponent } from './Componentes/compo-roberto/compo-roberto
 import { CompoMiguelComponent } from './Componentes/compo-miguel/compo-miguel.component';
 import { CompoEliComponent } from './Componentes/compo-eli/compo-eli.component';
 import { ComponenteAngelComponent } from './Componentes/componente-angel/componente-angel.component';
+import { CompoRubComponent } from './Componentes/compo-rub/compo-rub.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ComponenteAngelComponent } from './Componentes/componente-angel/compone
     CompoRobertoComponent,
     CompoMiguelComponent,
     CompoEliComponent,
-    ComponenteAngelComponent
+    ComponenteAngelComponent,
+    CompoRubComponent
   ],
   imports: [
     BrowserModule
