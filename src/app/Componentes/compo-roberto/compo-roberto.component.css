@@ -9,11 +9,11 @@
 
 
 .nombreJ{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 .cosas{
-        color: white;
+        color: rgb(0, 0, 0);
         text-align: center;
     
 }
@@ -34,7 +34,7 @@ div{
     text-align: center;
  }
 .container p{
-    color: white;
+    color: rgb(0, 0, 0);
     padding: .5rem .5rem;
     font-size: 15px;
     text-align: justify;
